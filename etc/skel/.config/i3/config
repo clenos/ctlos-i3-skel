@@ -278,7 +278,7 @@ exec_always --no-startup-id "dunst -config $HOME/.config/dunst/dunstrc"
 exec_always --no-startup-id "jgmenu_run start"
 exec --no-startup-id nm-applet
 exec --no-startup-id redshift-gtk
-exec --no-startup-id clipit
+exec --no-startup-id parcellite
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id "udiskie -t"
 
