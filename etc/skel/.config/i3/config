@@ -227,7 +227,7 @@ assign [class="(?i)virtualbox"] $ws9
 ##### start app key bind
 # Update locker, run: betterlockscreen -u path/to/directory -r 1366x768 -b 0.5
 # bindsym $mod1+l exec --no-startup-id "betterlockscreen -l dimblur"
-bindsym $mod1+l exec --no-startup-id "i3lock-fancy"
+bindsym $mod1+l exec --no-startup-id "$HOME/.bin/multilock.sh -l blur"
 
 bindsym $mod1+space exec --no-startup-id "skippy-xd"
 bindsym $mod1+d exec --no-startup-id "rofi -show drun"
