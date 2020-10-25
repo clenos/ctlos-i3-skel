@@ -239,7 +239,7 @@ bindsym $mod1+f exec --no-startup-id "$HOME/.bin/findapp thunar"
 bindsym $mod1+e exec --no-startup-id "mousepad"
 bindsym $mod1+w exec --no-startup-id "firefox"
 bindsym $mod+w exec --no-startup-id "$HOME/.bin/i3_switch_workspace.sh"
-bindsym Print exec --no-startup-id "scrot 'scrot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f ~/Pictures/screen ; viewnior ~/Pictures/screen/$f'"
+bindsym Print exec --no-startup-id "$HOME/.bin/flameshot.sh -c"
 bindsym $mod1+Print exec --no-startup-id "flameshot gui"
 bindsym $mod1+m exec --no-startup-id "xfce4-terminal -e ncmpcpp"
 
